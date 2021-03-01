@@ -1,0 +1,1585 @@
+2021-02-23 09:55:36.832 [main] INFO  top.anets.EinvoiceApplication - Starting EinvoiceApplication on WIN-3DFGP6SS4I1 with PID 3852 (D:\eclipse-sts\workspace\tmooc\E-invoice\target\classes started by Administrator in D:\eclipse-sts\workspace\tmooc\E-invoice)
+2021-02-23 09:55:36.835 [main] INFO  top.anets.EinvoiceApplication - The following profiles are active: dev
+2021-02-23 09:55:38.525 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-23 09:55:38.527 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-23 09:55:38.715 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 156ms. Found 0 repository interfaces.
+2021-02-23 09:55:39.426 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 09:55:39.495 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [top.anets.redis.RedisConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 09:55:39.498 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisPoolConfig' of type [top.anets.redis.RedisPoolConfig$$EnhancerBySpringCGLIB$$383f25c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 09:55:39.527 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jedisPool' of type [redis.clients.jedis.JedisPool] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 09:55:39.528 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisService' of type [top.anets.redis.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 09:55:40.016 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2000 (http)
+2021-02-23 09:55:40.033 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2000"]
+2021-02-23 09:55:40.034 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 09:55:40.034 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-23 09:55:40.278 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 09:55:40.278 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3238 ms
+2021-02-23 09:55:41.134 [main] INFO  top.anets.config.JCoDestinationPool - SAP测试环境》》》》》》》》》》》》》
+2021-02-23 09:55:41.134 [main] INFO  top.anets.config.JCoDestinationPool - ==========================================
+2021-02-23 09:56:02.327 [main] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 09:56:02 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+2021-02-23 09:56:03.875 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 09:56:04.963 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 09:56:05.075 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2000"]
+2021-02-23 09:56:05.147 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 2000 (http) with context path ''
+2021-02-23 09:56:05.154 [main] INFO  top.anets.EinvoiceApplication - Started EinvoiceApplication in 29.428 seconds (JVM running for 33.365)
+2021-02-23 09:56:10.835 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-02-23 09:56:51.084 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-02-23 09:56:51.114 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-02-23 09:56:51.122 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-23 09:56:51.129 [RMI TCP Connection(3)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-02-23 09:57:06.746 [main] INFO  top.anets.EinvoiceApplication - Starting EinvoiceApplication on WIN-3DFGP6SS4I1 with PID 5520 (D:\eclipse-sts\workspace\tmooc\E-invoice\target\classes started by Administrator in D:\eclipse-sts\workspace\tmooc\E-invoice)
+2021-02-23 09:57:06.749 [main] INFO  top.anets.EinvoiceApplication - The following profiles are active: dev
+2021-02-23 09:57:08.208 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-23 09:57:08.212 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-23 09:57:08.368 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 129ms. Found 0 repository interfaces.
+2021-02-23 09:57:09.183 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 09:57:09.279 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [top.anets.redis.RedisConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 09:57:09.283 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisPoolConfig' of type [top.anets.redis.RedisPoolConfig$$EnhancerBySpringCGLIB$$90a668c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 09:57:09.306 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jedisPool' of type [redis.clients.jedis.JedisPool] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 09:57:09.308 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisService' of type [top.anets.redis.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 09:57:09.737 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2000 (http)
+2021-02-23 09:57:09.752 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2000"]
+2021-02-23 09:57:09.753 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 09:57:09.754 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-23 09:57:10.039 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 09:57:10.039 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3150 ms
+2021-02-23 09:57:10.543 [main] INFO  top.anets.config.JCoDestinationPool - SAP测试环境》》》》》》》》》》》》》
+2021-02-23 09:57:10.543 [main] INFO  top.anets.config.JCoDestinationPool - ==========================================
+2021-02-23 09:57:31.637 [main] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 09:57:31 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+2021-02-23 09:57:33.087 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 09:57:33.849 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 09:57:33.971 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2000"]
+2021-02-23 09:57:34.022 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 2000 (http) with context path ''
+2021-02-23 09:57:34.027 [main] INFO  top.anets.EinvoiceApplication - Started EinvoiceApplication in 28.149 seconds (JVM running for 31.127)
+2021-02-23 09:57:39.620 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-02-23 09:59:20.574 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 09:59:27.035 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-02-23 09:59:27.037 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-02-23 09:59:27.063 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-23 09:59:27.068 [RMI TCP Connection(4)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-02-23 09:59:45.670 [main] INFO  top.anets.EinvoiceApplication - Starting EinvoiceApplication on WIN-3DFGP6SS4I1 with PID 3028 (D:\eclipse-sts\workspace\tmooc\E-invoice\target\classes started by Administrator in D:\eclipse-sts\workspace\tmooc\E-invoice)
+2021-02-23 09:59:45.676 [main] INFO  top.anets.EinvoiceApplication - The following profiles are active: dev
+2021-02-23 09:59:47.010 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-23 09:59:47.014 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-23 09:59:47.183 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 143ms. Found 0 repository interfaces.
+2021-02-23 09:59:47.834 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 09:59:47.919 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [top.anets.redis.RedisConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 09:59:47.925 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisPoolConfig' of type [top.anets.redis.RedisPoolConfig$$EnhancerBySpringCGLIB$$a0ebeb97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 09:59:47.952 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jedisPool' of type [redis.clients.jedis.JedisPool] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 09:59:47.953 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisService' of type [top.anets.redis.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 09:59:48.399 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2000 (http)
+2021-02-23 09:59:48.417 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2000"]
+2021-02-23 09:59:48.419 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 09:59:48.419 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-23 09:59:48.691 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 09:59:48.691 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2928 ms
+2021-02-23 09:59:49.098 [main] INFO  top.anets.config.JCoDestinationPool - SAP测试环境》》》》》》》》》》》》》
+2021-02-23 09:59:49.098 [main] INFO  top.anets.config.JCoDestinationPool - ==========================================
+2021-02-23 10:00:10.203 [main] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:00:10 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+2021-02-23 10:00:11.666 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 10:00:12.419 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 10:00:12.531 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2000"]
+2021-02-23 10:00:12.581 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 2000 (http) with context path ''
+2021-02-23 10:00:12.589 [main] INFO  top.anets.EinvoiceApplication - Started EinvoiceApplication in 28.032 seconds (JVM running for 31.213)
+2021-02-23 10:00:18.199 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-02-23 10:00:20.805 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:00:41.840 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:00:41 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+2021-02-23 10:00:41.841 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:00:41.857 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:01:02.901 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:01:02 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     4
+
+2021-02-23 10:01:02.901 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:01:02.905 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:01:23.951 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:01:23 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     6
+
+2021-02-23 10:01:23.951 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:01:23.954 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:01:45.007 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:01:45 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     8
+
+2021-02-23 10:01:45.008 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:01:45.011 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:02:06.056 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:02:06 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     10
+
+2021-02-23 10:02:06.056 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:02:06.058 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:02:27.100 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:02:27 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     12
+
+2021-02-23 10:02:27.101 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:02:27.103 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:02:48.240 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:02:48 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     14
+
+2021-02-23 10:02:48.240 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:02:48.244 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:03:09.368 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:03:09 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     16
+
+2021-02-23 10:03:09.369 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:03:09.371 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:03:30.395 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:03:30 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     18
+
+2021-02-23 10:03:30.396 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:03:30.399 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:03:51.573 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:03:51 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     20
+
+2021-02-23 10:03:51.574 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:03:51.577 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:04:12.843 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:04:12 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     22
+
+2021-02-23 10:04:12.843 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:04:12.846 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:04:33.885 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:04:33 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     24
+
+2021-02-23 10:04:33.885 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:04:33.888 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:04:54.916 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:04:54 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     26
+
+2021-02-23 10:04:54.916 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:04:54.919 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:05:15.946 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:05:15 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     28
+
+2021-02-23 10:05:15.947 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:05:15.949 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:05:36.996 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:05:36 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     30
+
+2021-02-23 10:05:36.997 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:05:37.000 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:05:58.051 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:05:58 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     32
+
+2021-02-23 10:05:58.051 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:05:58.053 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:06:19.349 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:06:19 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     34
+
+2021-02-23 10:06:19.349 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:06:19.351 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:06:40.405 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:06:40 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     36
+
+2021-02-23 10:06:40.406 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:06:40.408 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:07:01.594 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:07:01 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     38
+
+2021-02-23 10:07:01.594 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:07:01.598 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:07:23.092 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:07:23 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     40
+
+2021-02-23 10:07:23.092 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:07:23.095 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:07:44.579 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:07:44 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     42
+
+2021-02-23 10:07:44.579 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:07:44.582 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:08:03.757 [http-nio-2000-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1612661943,1613719917,1614045776; Hm_lpvt_7174bade1219f9cc272e7978f9523fc8=1614046069] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2021-02-23 10:08:03.796 [http-nio-2000-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 10:08:03.796 [http-nio-2000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-23 10:08:03.821 [http-nio-2000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 25 ms
+2021-02-23 10:08:05.809 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:08:05 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     44
+
+2021-02-23 10:08:05.809 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:08:05.811 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:08:06.508 [http-nio-2000-exec-4] INFO  top.anets.service.impl.InvoiceViewServiceImpl - 走缓存线路
+2021-02-23 10:08:07.707 [http-nio-2000-exec-4] INFO  top.anets.service.impl.InvoiceViewServiceImpl - 23
+2021-02-23 10:08:26.848 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:08:26 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     46
+
+2021-02-23 10:08:26.848 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:08:26.850 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:08:30.390 [http-nio-2000-exec-3] INFO  top.anets.exception.GlobalExceptionHandler - java.lang.NullPointerException
+	at top.anets.controller.InvoiceViewControl.getLogs(InvoiceViewControl.java:228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-02-23 10:08:47.885 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:08:47 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     48
+
+2021-02-23 10:08:47.885 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:08:47.888 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:08:54.605 [http-nio-2000-exec-6] INFO  top.anets.vo.Logs - org:2000/00启动开票成功
+2021-02-23 10:08:54.742 [http-nio-2000-exec-6] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 10:08:54.826 [pool-3-thread-1] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 10:09:04.840 [pool-3-thread-1] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 10:09:04.862 [pool-3-thread-1] INFO  top.anets.vo.Logs - org:2000/00监测到已停止开票
+2021-02-23 10:09:04.868 [pool-3-thread-1] INFO  top.anets.vo.Logs - org:2000/00停止开票
+2021-02-23 10:09:08.935 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:09:08 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     50
+
+2021-02-23 10:09:08.936 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:09:08.938 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:09:11.291 [http-nio-2000-exec-6] INFO  top.anets.service.impl.InvoiceViewServiceImpl - 走缓存线路
+2021-02-23 10:09:11.370 [http-nio-2000-exec-6] INFO  top.anets.service.impl.InvoiceViewServiceImpl - 23
+2021-02-23 10:09:14.863 [http-nio-2000-exec-1] INFO  top.anets.vo.Logs - org:2000/00启动开票成功
+2021-02-23 10:09:14.889 [http-nio-2000-exec-1] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 10:09:14.915 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 10:09:24.932 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 10:09:24.955 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 10:09:30.060 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:09:30 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     52
+
+2021-02-23 10:09:30.061 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:09:30.064 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:09:34.975 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 10:09:35.001 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 10:09:45.020 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 10:09:45.055 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 10:09:51.101 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:09:51 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     54
+
+2021-02-23 10:09:51.101 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:09:51.104 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:09:55.074 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 10:09:55.098 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 10:10:05.110 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 10:10:05.133 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 10:10:12.141 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:10:12 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     56
+
+2021-02-23 10:10:12.141 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:10:12.144 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:10:15.151 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 10:10:15.176 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 10:10:25.185 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 10:10:25.210 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 10:10:33.173 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:10:33 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     58
+
+2021-02-23 10:10:33.173 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:10:33.175 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:10:35.229 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 10:10:35.255 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 10:10:45.271 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 10:10:45.299 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 10:10:54.200 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 10:10:54 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     60
+
+2021-02-23 10:10:54.200 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 10:10:54.203 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 10:10:55.308 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 10:10:55.333 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 10:11:05.340 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 10:11:05.400 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 10:11:08.083 [RMI TCP Connection(5)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-02-23 10:11:08.085 [RMI TCP Connection(5)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-02-23 10:11:08.091 [RMI TCP Connection(5)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-23 10:11:08.098 [RMI TCP Connection(5)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-02-23 20:50:39.710 [main] INFO  top.anets.EinvoiceApplication - Starting EinvoiceApplication on WIN-3DFGP6SS4I1 with PID 6828 (D:\eclipse-sts\workspace\tmooc\E-invoice\target\classes started by Administrator in D:\eclipse-sts\workspace\tmooc\E-invoice)
+2021-02-23 20:50:39.742 [main] INFO  top.anets.EinvoiceApplication - The following profiles are active: dev
+2021-02-23 20:50:41.860 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-23 20:50:41.866 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-23 20:50:42.127 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 222ms. Found 0 repository interfaces.
+2021-02-23 20:50:43.075 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 20:50:43.169 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [top.anets.redis.RedisConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 20:50:43.172 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisPoolConfig' of type [top.anets.redis.RedisPoolConfig$$EnhancerBySpringCGLIB$$d1da51c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 20:50:43.222 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jedisPool' of type [redis.clients.jedis.JedisPool] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 20:50:43.228 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisService' of type [top.anets.redis.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 20:50:43.780 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2000 (http)
+2021-02-23 20:50:43.800 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2000"]
+2021-02-23 20:50:43.805 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 20:50:43.805 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-23 20:50:44.120 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 20:50:44.120 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4174 ms
+2021-02-23 20:50:44.615 [main] INFO  top.anets.config.JCoDestinationPool - SAP测试环境》》》》》》》》》》》》》
+2021-02-23 20:50:44.615 [main] INFO  top.anets.config.JCoDestinationPool - ==========================================
+2021-02-23 20:51:05.969 [main] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:51:05 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+2021-02-23 20:51:07.687 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-23 20:51:08.721 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-02-23 20:51:08.877 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2000"]
+2021-02-23 20:51:09.007 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 2000 (http) with context path ''
+2021-02-23 20:51:09.014 [main] INFO  top.anets.EinvoiceApplication - Started EinvoiceApplication in 30.893 seconds (JVM running for 34.552)
+2021-02-23 20:51:14.528 [scheduling-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-02-23 20:51:17.489 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 20:51:38.541 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:51:38 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+2021-02-23 20:51:38.541 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:51:38.546 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 20:51:59.593 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:51:59 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     4
+
+2021-02-23 20:51:59.593 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:51:59.597 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 20:52:20.794 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:52:20 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     6
+
+2021-02-23 20:52:20.795 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:52:20.797 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 20:52:41.833 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:52:41 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     8
+
+2021-02-23 20:52:41.833 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:52:41.837 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 20:53:02.882 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:53:02 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     10
+
+2021-02-23 20:53:02.883 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:53:02.886 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 20:53:24.084 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:53:24 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     12
+
+2021-02-23 20:53:24.085 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:53:24.088 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 20:53:45.254 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:53:45 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     14
+
+2021-02-23 20:53:45.255 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:53:45.258 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 20:54:06.712 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:54:06 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     16
+
+2021-02-23 20:54:06.712 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:54:06.715 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 20:54:27.756 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:54:27 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     18
+
+2021-02-23 20:54:27.756 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:54:27.759 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 20:54:48.930 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:54:48 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     20
+
+2021-02-23 20:54:48.930 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:54:48.934 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 20:54:55.350 [http-nio-2000-exec-10] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1613719917,1614045776,1614084891; Hm_lpvt_7174bade1219f9cc272e7978f9523fc8=1614084891] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2021-02-23 20:54:55.381 [http-nio-2000-exec-10] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 20:54:55.381 [http-nio-2000-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-23 20:54:55.398 [http-nio-2000-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2021-02-23 20:55:03.589 [http-nio-2000-exec-5] INFO  top.anets.service.impl.InvoiceViewServiceImpl - 走缓存线路
+2021-02-23 20:55:05.146 [http-nio-2000-exec-5] INFO  top.anets.service.impl.InvoiceViewServiceImpl - 23
+2021-02-23 20:55:06.705 [http-nio-2000-exec-10] INFO  top.anets.vo.Logs - org:2000/00启动开票成功
+2021-02-23 20:55:06.814 [http-nio-2000-exec-10] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 20:55:06.865 [pool-3-thread-1] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 20:55:10.348 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:55:10 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     22
+
+2021-02-23 20:55:10.348 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:55:10.351 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 20:55:16.880 [pool-3-thread-1] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 20:55:16.909 [pool-3-thread-1] INFO  top.anets.vo.Logs - org:2000/00监测到已停止开票
+2021-02-23 20:55:16.918 [pool-3-thread-1] INFO  top.anets.vo.Logs - org:2000/00停止开票
+2021-02-23 20:55:31.398 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:55:31 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     24
+
+2021-02-23 20:55:31.399 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:55:31.401 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 20:55:52.446 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:55:52 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     26
+
+2021-02-23 20:55:52.446 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:55:52.449 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 20:56:13.494 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:56:13 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     28
+
+2021-02-23 20:56:13.494 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:56:13.496 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 20:56:21.575 [http-nio-2000-exec-1] INFO  top.anets.service.impl.InvoiceViewServiceImpl - 走缓存线路
+2021-02-23 20:56:21.662 [http-nio-2000-exec-1] INFO  top.anets.service.impl.InvoiceViewServiceImpl - 23
+2021-02-23 20:56:24.586 [http-nio-2000-exec-3] INFO  top.anets.vo.Logs - org:2000/00启动开票成功
+2021-02-23 20:56:24.611 [http-nio-2000-exec-3] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 20:56:24.638 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 20:56:34.558 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:56:34 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     30
+
+2021-02-23 20:56:34.558 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:56:34.560 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 20:56:34.685 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 20:56:34.714 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 20:56:44.758 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 20:56:44.785 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00待开票池没有数据...
+2021-02-23 20:56:54.793 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00正在加载数据到代开票池...
+2021-02-23 20:56:54.822 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00监测到已停止开票
+2021-02-23 20:56:54.828 [pool-3-thread-2] INFO  top.anets.vo.Logs - org:2000/00停止开票
+2021-02-23 20:56:55.609 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:56:55 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     32
+
+2021-02-23 20:56:55.610 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:56:55.612 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 20:57:16.641 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:57:16 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     34
+
+2021-02-23 20:57:16.641 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:57:16.645 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 20:57:37.692 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:57:37 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     36
+
+2021-02-23 20:57:37.692 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:57:37.694 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 20:57:58.739 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:57:58 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     38
+
+2021-02-23 20:57:58.740 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:57:58.742 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 20:58:19.772 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:58:19 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     40
+
+2021-02-23 20:58:19.772 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:58:19.775 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 20:58:40.817 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:58:40 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     42
+
+2021-02-23 20:58:40.817 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:58:40.819 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 20:59:01.871 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:59:01 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     44
+
+2021-02-23 20:59:01.872 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:59:01.875 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 20:59:22.913 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:59:22 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     46
+
+2021-02-23 20:59:22.913 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:59:22.917 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 20:59:43.971 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 20:59:43 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     48
+
+2021-02-23 20:59:43.972 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 20:59:43.974 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 21:00:05.003 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 21:00:05 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     50
+
+2021-02-23 21:00:05.003 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 21:00:05.008 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 21:00:26.045 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 21:00:26 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     52
+
+2021-02-23 21:00:26.046 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 21:00:26.048 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 21:00:47.087 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 21:00:47 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     54
+
+2021-02-23 21:00:47.087 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 21:00:47.089 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 21:01:08.141 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 21:01:08 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     56
+
+2021-02-23 21:01:08.141 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 21:01:08.143 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 21:01:29.185 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 21:01:29 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     58
+
+2021-02-23 21:01:29.185 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 21:01:29.187 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 21:01:50.236 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 21:01:50 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     60
+
+2021-02-23 21:01:50.236 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 21:01:50.239 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 21:02:11.277 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 21:02:11 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     62
+
+2021-02-23 21:02:11.277 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 21:02:11.279 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 21:02:32.303 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 21:02:32 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     64
+
+2021-02-23 21:02:32.303 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 21:02:32.308 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 21:02:53.340 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 21:02:53 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     66
+
+2021-02-23 21:02:53.340 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 21:02:53.343 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2100，单据状态:1，获取条数:1
+2021-02-23 21:03:14.392 [scheduling-1] INFO  top.anets.config.JCoDestinationPool - Destination - ABAP_AS2 is invalidInitialization of destination ABAP_AS2 failed: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ABAP_AS2 ASHOST=192.168.200.61 SYSNR=00 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.200.61:3300' not reached
+TIME        Tue Feb 23 21:03:14 2021
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3283
+DETAIL      NiPConnect2: 192.168.200.61:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     68
+
+2021-02-23 21:03:14.393 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 未从sap获取到函数对象
+2021-02-23 21:03:14.395 [scheduling-1] INFO  top.anets.service.impl.SapServiceImpl - 从SAP获取信息开始》》》》》》》》》组织:2000，单据状态:1，获取条数:1
+2021-02-23 21:03:17.244 [RMI TCP Connection(5)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-02-23 21:03:17.311 [RMI TCP Connection(5)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-02-23 21:03:17.342 [RMI TCP Connection(5)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-23 21:03:17.360 [RMI TCP Connection(5)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
